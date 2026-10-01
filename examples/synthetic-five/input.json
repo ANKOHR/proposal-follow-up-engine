@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "synthetic": true,
+  "entered_by": "hand-written synthetic example",
+  "as_of": "2026-09-30",
+  "currency": "GBP",
+  "proposals": [
+    {"id":"one","client":"Synthetic café","amount_minor":10000,"status":"sent","sent_on":"2026-09-01","follow_up_on":"2026-09-29"},
+    {"id":"two","client":"Synthetic studio","amount_minor":20000,"status":"sent","sent_on":"2026-09-02","follow_up_on":"2026-09-30"},
+    {"id":"three","client":"Synthetic shop","amount_minor":30000,"status":"sent","sent_on":"2026-09-03","follow_up_on":"2026-10-01"},
+    {"id":"four","client":"Synthetic lab","amount_minor":40000,"status":"accepted","sent_on":"2026-09-04","follow_up_on":"2026-09-29"},
+    {"id":"five","client":"Synthetic agency","amount_minor":50000,"status":"withdrawn","sent_on":"2026-09-05","follow_up_on":"2026-09-29"}
+  ]
+}

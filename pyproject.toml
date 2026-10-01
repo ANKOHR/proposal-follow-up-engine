@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proposal-follow-up-engine"
+version = "1.0.0"
+description = "Deterministic local proposal monitoring"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+pfue = "proposal_follow_up_engine.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.setuptools]
+packages = ["proposal_follow_up_engine"]
