@@ -1,0 +1,6 @@
+Proposal Follow-Up Engine build complete
+Test count: 39 passed (pytest, 0.44 seconds).
+Local tested implementation commit hash: b8b989b59c95594909aad11ee971e70ebe465fde
+Installed CLI fixture/run/report demo: 0.806596 seconds, under 5 seconds.
+
+Built a CPU-only, offline Python CLI with fixtures, run, report, due and outstanding commands; pure validated proposal classification; exact integer face-value reconciliation; labelled 200-record synthetic ground truth and a hand-written five-record example; deterministic Markdown and JSON reports with explicit provenance; atomic local writes and named errors; adversarial and exact-set tests; complete input and usage documentation, lessons, acceptance evidence, and a two-week real-use improvement and verdict process. Synthetic acceptance is verified; real-use accuracy, demand and savings are unmeasured. Publishing is deferred to separate verification. This file records the tested implementation commit; a subsequent documentation-only commit adds this completion record.
